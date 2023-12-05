@@ -1,0 +1,28 @@
+# Use an official Node runtime as a parent image
+FROM node:20
+
+WORKDIR /app-backend
+
+COPY package.json package-lock.json ./backend/
+RUN cd backend && npm install
+RUN npm install express cors os path fs
+
+# Install Python and its dependencies
+RUN apt-get update && apt-get install -y python3 python3-pip
+RUN apt-get update && apt-get install -y python3-venv
+RUN python3 -m venv /venv
+ENV PATH="/venv/bin:$PATH"
+
+# Install Python packages in the virtual environment
+COPY ./src/server/requirements.txt /python/requirements.txt
+RUN pip3 install --no-cache-dir -r /python/requirements.txt
+
+COPY ./src/server/get_build_history.py ./python/
+
+COPY ./src/server/server.js ./backend/src/server/
+
+COPY . .
+
+EXPOSE 3001
+
+CMD ["node", "src/server/server.js"]

@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.home,
+.reports,
+.testing,
+.tbaas {
+  display: flex;
+  height: 100vb;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Navbar CSS */
+.navbar {
+  background-color: black;
+  height: 55px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  background: none;
+  color: #ffffff;
+}
+
+.nav-menu {
+  background-color: black;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 600ms;
+  z-index: 999;
+}
+
+.nav-menu.active {
+  left: 0;
+  /* transition: 500ms; */
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+
+/* For Webkit-based browsers (Chrome, Safari) */
+
+/* Black Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #333;
+}
+
+/* White Scrollbar */
+::-webkit-scrollbar-light {
+  width: 12px;
+}
+
+::-webkit-scrollbar-light-thumb {
+  background-color: white;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-light-thumb:hover {
+  background-color: #f0f0f0;
+}
+
+

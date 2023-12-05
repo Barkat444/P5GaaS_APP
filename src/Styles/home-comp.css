@@ -1,0 +1,119 @@
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.home img {
+  position: absolute;
+  top: 60px;
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  filter: brightness(100%); 
+}
+
+.text-overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.center-text {
+  font-size: 40px;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: fadeInCenter 3s ease-in-out;
+  animation-fill-mode: forwards;
+  top: 30vh;
+  /* text-shadow:
+  -3px -3px 0 #000, 
+  3px -3px 0 #000,  
+  -3px 3px 0 #000, 
+  3px 3px 0 #000;   */
+}
+
+.animated_text {
+  position: absolute;
+  bottom: 90px;
+  left: 17%;
+  text-align: center;
+}
+
+
+.left-half h1,
+.right-half h1 {
+  font-size: 48px;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  /* text-shadow:
+  -2px -2px 0 #000, 
+  2px -2px 0 #000,  
+  -2px 2px 0 #000,  
+  2px 2px 0 #000;   */
+}
+
+.left-half h1 {
+  animation-name: slideInLeft, stayVisible;
+  animation-delay: 0s, 2s;
+}
+
+.right-half h1 {
+  animation-name: slideInRight, stayVisible;
+  animation-delay: 0s, 2s;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes stayVisible {
+  0%, 100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInCenter {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-30vh);
+  }
+}

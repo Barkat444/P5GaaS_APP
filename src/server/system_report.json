@@ -1,0 +1,24 @@
+[
+    {
+        "build_number": "#69",
+        "build_status": "Success",
+        "build_timestamp": "Sep 15, 2023, 2:56 AM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_System_Test_BV/69/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_System_Test_BV/69/PATS_20Cucumber_20Report/"
+    },
+    {
+        "build_number": "#66",
+        "build_status": "Failed",
+        "failure_cause": "Failure Cause",
+        "build_timestamp": "Sep 14, 2023, 2:53 PM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_System_Test_BV/66/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_System_Test_BV/66/PATS_20Cucumber_20Report/"
+    },
+    {
+        "build_number": "#56",
+        "build_status": "Success",
+        "build_timestamp": "Sep 14, 2023, 11:53 AM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_System_Test_BV/56/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_System_Test_BV/56/PATS_20Cucumber_20Report/"
+    }
+]

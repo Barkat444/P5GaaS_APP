@@ -1,0 +1,72 @@
+[
+    {
+        "build_number": "#75",
+        "build_status": "Success",
+        "build_timestamp": "Oct 20, 2023, 12:29 AM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/75/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/75/PATSReport/"
+    },
+    {
+        "build_number": "#74",
+        "build_status": "Success",
+        "build_timestamp": "Oct 19, 2023, 12:29 AM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/74/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/74/PATSReport/"
+    },
+    {
+        "build_number": "#73",
+        "build_status": "Success",
+        "build_timestamp": "Oct 18, 2023, 9:13 AM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/73/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/73/PATSReport/"
+    },
+    {
+        "build_number": "#72",
+        "build_status": "Success",
+        "build_timestamp": "Oct 18, 2023, 7:08 AM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/72/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/72/PATSReport/"
+    },
+    {
+        "build_number": "#71",
+        "build_status": "Success",
+        "build_timestamp": "Oct 18, 2023, 12:29 AM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/71/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/71/PATSReport/"
+    },
+    {
+        "build_number": "#70",
+        "build_status": "Success",
+        "build_timestamp": "Oct 17, 2023, 7:21 PM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/70/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/70/PATSReport/"
+    },
+    {
+        "build_number": "#69",
+        "build_status": "Success",
+        "build_timestamp": "Oct 17, 2023, 6:21 PM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/69/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/69/PATSReport/"
+    },
+    {
+        "build_number": "#68",
+        "build_status": "Success",
+        "build_timestamp": "Oct 17, 2023, 6:15 PM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/68/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/68/PATSReport/"
+    },
+    {
+        "build_number": "#67",
+        "build_status": "Success",
+        "build_timestamp": "Oct 17, 2023, 6:10 PM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/67/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/67/PATSReport/"
+    },
+    {
+        "build_number": "#66",
+        "build_status": "Success",
+        "build_timestamp": "Oct 17, 2023, 6:04 PM",
+        "build_link": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/66/console",
+        "pats_report": "http://eig-jenkins.cisco.com:9500/job/P5G_Regression/66/PATSReport/"
+    }
+]

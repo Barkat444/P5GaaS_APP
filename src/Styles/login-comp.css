@@ -1,0 +1,140 @@
+/* Navbar styles */
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+  }
+  
+  /* After login, position the login button in the top right corner */
+  .login-button.loggedIn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .login-button button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: large;
+  }
+  
+  .login-button button:hover {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: large;
+  }
+  
+  /* IP dropdown styles */
+  .ip-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .ip-button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Logout dropdown styles */
+  .logout-dropdown {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    background-color: black;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    right: 0;
+    top: 100%;
+  }
+  
+  /* Show logout dropdown on hover */
+  .ip-dropdown:hover .logout-dropdown {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Logout button styles */
+  .logout-dropdown span {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .logout-dropdown span:hover {
+    background-color: #ddd;
+  }
+  
+  /* Popup styles */
+  .popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  }
+  
+  /* Popup content styles */
+  .popup-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  
+  /* Close button styles */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  /* Input field styles */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  /* Input field with invalid IP styles */
+  input.invalid {
+    border-color: red;
+    color: red;
+  }
+  

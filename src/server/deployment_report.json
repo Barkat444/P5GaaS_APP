@@ -1,0 +1,23 @@
+[
+    {
+        "build_number": "#114",
+        "build_status": "Success",
+        "build_timestamp": "Oct 20, 2023, 5:18 AM",
+        "build_link": "http://eig-jenkins.cisco.com:7600/job/Deployer/job/P5G_AMF_SMF_UPF_Deployer/114/console",
+        "pats_report": "http://eig-jenkins.cisco.com:7600/job/Deployer/job/P5G_AMF_SMF_UPF_Deployer/114/PATSReport/"
+    },
+    {
+        "build_number": "#113",
+        "build_status": "Success",
+        "build_timestamp": "Oct 13, 2023, 11:39 AM",
+        "build_link": "http://eig-jenkins.cisco.com:7600/job/Deployer/job/P5G_AMF_SMF_UPF_Deployer/113/console",
+        "pats_report": "http://eig-jenkins.cisco.com:7600/job/Deployer/job/P5G_AMF_SMF_UPF_Deployer/113/PATSReport/"
+    },
+    {
+        "build_number": "#112",
+        "build_status": "Success",
+        "build_timestamp": "Oct 13, 2023, 6:52 AM",
+        "build_link": "http://eig-jenkins.cisco.com:7600/job/Deployer/job/P5G_AMF_SMF_UPF_Deployer/112/console",
+        "pats_report": "http://eig-jenkins.cisco.com:7600/job/Deployer/job/P5G_AMF_SMF_UPF_Deployer/112/PATSReport/"
+    }
+]

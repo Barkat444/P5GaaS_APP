@@ -1,0 +1,95 @@
+/* Style for the container */
+.reports {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin: 30px;
+}
+
+
+/* Style for each report card */
+.report-card {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px); 
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+}
+
+.failure-cause {
+  font-size: larger; 
+  color: red;
+}
+
+
+.report-card:hover {
+  transform: scale(1.05);
+}
+
+
+.report-card h2 {
+  font-size: 18px; 
+  margin-bottom: 10px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+
+.report-card p {
+  font-size: 14px; 
+  margin: 8px 0;
+}
+
+
+.report-card a {
+  display: block;
+  margin-top: 8px; 
+  text-decoration: none;
+  color: #0078d4; 
+  font-weight: bold;
+  font-size: 12px; 
+  padding: 4px 8px; 
+}
+
+.report-card a:hover {
+  text-decoration: underline;
+}
+
+.no-records {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; 
+  font-size: 24px; 
+  font-weight: bold;
+  color: #555; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .reports {
+    justify-content: flex-start;
+  }
+
+  .report-card {
+    width: calc(50% - 20px);
+  }
+
+
+  .report-card h2 {
+    font-size: 16px; 
+  }
+
+  .report-card p {
+    font-size: 12px; 
+  }
+
+  .report-card a {
+    font-size: 10px; 
+  }
+}

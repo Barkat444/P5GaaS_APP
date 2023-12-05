@@ -1,0 +1,31 @@
+/* Define a CSS class for the support container */
+.support-container {
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the heading */
+  .support-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the paragraph */
+  .support-paragraph {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Style the email links */
+  .support-email-link {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  

@@ -1,0 +1,14 @@
+FROM node:20
+
+WORKDIR /app-frontend
+
+COPY package.json package-lock.json ./
+RUN npm install
+
+COPY ./public ./frontend/public
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
